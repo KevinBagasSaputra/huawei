@@ -6,6 +6,10 @@ body{
     font-family: poppins;
 }
 
+/* Marquee START */
+
+/* Marquee END */
+
 /* Navbar START */
 nav{
     width: 100%;
@@ -13,124 +17,153 @@ nav{
 }
 
 nav .container{
-    padding: 15px;
+    padding: 20px;
 }
 
 nav .container ul{
-    align-items: center;
-    align-content: center;
-
     display: flex;
     justify-content: space-evenly;
 
     flex-wrap: wrap;
+    align-items: center;
 }
 
 nav .container ul li{
     list-style-type: none;
 }
 
-nav .container ul li a{
-    color: black;
-    padding: 10px;
-    text-decoration: none;
-    z-index: 1;
-}nav .container ul li a:hover{
-    color: black;
-    text-decoration: underline;
-    text-underline-offset: 20px;
-}
+    /* Logo Navbar START */
+        nav .container ul li .judul{
+            text-decoration: none;
+        }nav .container ul li .judul img{
+            width: 100px;
+        }
+    /* Logo Navbar END */
 
-nav .container ul li a img{
-    width: 100px;
-}
 
+        /* Menu START */
+            nav .container ul li a{
+                color: black;
+                padding: 10px;
+                text-decoration: none;
+            }nav .container ul li a:hover{
+                text-decoration: underline;
+                text-underline-offset: 25px;
+            }
+        /* Menu END */
 /* Navbar END */
+
 
 
 /* Hero START */
 .hero{
     width: 100%;
+    background-color: #F1F3F5;
 }
 
 .hero .container{
-    background-color: #F5F5F5;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 20px; padding-right: 20px;
 }
 
-.hero .container .flex{
+.hero .container ul{
     display: flex;
     justify-content: center;
+    background-color: white;
 
+
+}.hero .container ul .text{
+    position: absolute;
+}.hero .container ul .text .container{
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+    /* H2 dan P START*/
+        .hero .container ul .text .container h2{
+            font-size: 1.5em;
+        }.hero .container ul .text .container p{
+            font-size: 1.1em;
+        }
+    /* H2 dan P END*/
+
+
+.hero .container ul .text .container .pelajari{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    
+    border-radius: 4px;
+}.hero .container ul .text .container .pelajari:hover{
+    opacity: 0.5;
+}
+
+
+.hero .container ul .text .container .buy{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.hero .container ul a{
+    width: 100%; 
     text-align: center;
 }
 
-.hero .container .flex a{
-    color: black;
-    text-decoration: none;
-}
-
-.hero .container .flex a .text .link a{
-    color: white;
-    background-color: black;
-
+.hero .container ul a img{
     border-radius: 10px;
-    border: 1px solid black;
-}
-
-
-.hero .container .flex a img{
-    border-radius: 20px;
-    min-width: 50%;
+    min-width: 100px;
     max-width: 100%;
 
-    min-height: 400px;
-    max-height: 600px;
+    min-height: 300px;
+    max-height: 500px;
 
     object-fit: cover;
 }
 
-.hero .container .flex .text{
-    position: absolute;
-    padding: 30px;
+
+.hero .container ul{
+    background-color: #F1F3F5;
 }
 
-.hero .container .flex .text h2{
+.hero .container ul li{
+    list-style-type: none;
+}
+
+.hero .container ul li .pelajari{
     color: black;
-    font-weight: 600;
-    font-size: 1.5em;
-}.hero .container .flex .text p{
-    font-size: 1.4em;
+    font-weight: 500;
+
+    text-decoration: underline;
+
+
+    padding: 5px;
+    margin: 10px;
+    font-size: 13.5px;
+
+}.hero .container ul li .pelajari:hover{
+    color: black;
+
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
-.hero .container .flex .text .link{
-    padding: 10px;
-
-}
-
-.hero .container .flex .text .link .pelajari{
-    font-size: 12px;
-    color: white;
-    background-color: black;
-    border-radius: 5px;
-
-    padding: 7px;
-    margin: 20px;
-
-    transition: all ease-in 90ms;
-}.hero .container .flex .text .link .pelajari:hover{
-    opacity: 0.7;
-
-    transition: all ease-in-out 520ms;
-}
-
-.hero .container .flex .text .link .buy{
+.hero .container ul li .buy{
     color: black;
     background-color: white;
 
+    text-decoration: none;
     padding: 3px;
+
     border: 1px solid black;
     border-radius: 4px;
+}.hero .container ul li .buy:hover{
+    color: white;
+    background-color: black;
 }
+
+
+
 /* Hero END */
