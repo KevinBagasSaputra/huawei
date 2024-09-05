@@ -1,0 +1,98 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+/* Navbar START */
+nav{
+    width: 100%;
+    background-color: #F1F3F5;
+}
+
+nav .container{
+    padding: 15px;
+}
+
+nav .container ul{
+    align-items: center;
+    align-content: center;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+}
+
+nav .container ul li{
+    list-style-type: none;
+}
+
+nav .container ul li a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    z-index: 1;
+}nav .container ul li a:hover{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+nav .container ul li a img{
+    width: 100px;
+}
+
+/* Navbar END */
+
+
+/* Hero START */
+.hero{
+    width: 100%;
+}
+
+.hero .container{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #F5F5F5;
+}
+
+.hero .container .flex{
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.hero .container .flex a{
+    color: black;
+    text-decoration: none;
+}
+
+.hero .container .flex a .text .link a{
+    color: white;
+    background-color: black;
+
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+.hero .container .flex a img{
+    min-width: 50%;
+    max-width: 100%;
+
+    min-height: 300px;
+    max-height: 500px;
+
+    object-fit: cover;
+}
+
+.hero .container .flex .text{
+    position: absolute;
+    padding: 20px;
+
+}
+/* Hero END */
