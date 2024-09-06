@@ -197,7 +197,6 @@ nav .container ul li{
 .content .container .flex ul a .text{
     background-color: white;
     text-align: center;
-
 } 
 
 .content .container .flex ul a .text h3{
@@ -212,7 +211,5 @@ nav .container ul li{
     max-height: 200px;
 
     object-fit: cover;
-
-    border-radius: 10px;
 }
 /* Contet END */
