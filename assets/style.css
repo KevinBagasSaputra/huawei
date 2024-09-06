@@ -13,7 +13,11 @@ body{
 /* Navbar START */
 nav{
     width: 100%;
-    background-color: #F1F3F5;
+    background-color: #f1f3f500;
+    z-index: 1;
+
+    position: fixed;
+    top: 0;
 }
 
 nav .container{
@@ -125,7 +129,7 @@ nav .container ul li{
 
 
 .hero .container ul{
-    background-color: #F1F3F5;
+    background-color: white;
 }
 
 .hero .container ul li{
@@ -166,6 +170,9 @@ nav .container ul li{
 /* Hero END */
 
 
+
+
+
 /* Contet START */
 .content{
     width: 100%;
@@ -192,11 +199,19 @@ nav .container ul li{
     color: black;
 
     text-decoration: none;
+    transition: all ease-out 220ms;
+}.content .container .flex ul a:hover{
+    background-color: black;
+    border-radius: 10px;
+
+    transition: ease-in-out 129ms;
 }
 
 .content .container .flex ul a .text{
     background-color: white;
     text-align: center;
+
+    width: 100%;
 } 
 
 .content .container .flex ul a .text h3{
