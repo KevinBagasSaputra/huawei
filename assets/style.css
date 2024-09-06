@@ -163,7 +163,56 @@ nav .container ul li{
     color: white;
     background-color: black;
 }
-
-
-
 /* Hero END */
+
+
+/* Contet START */
+.content{
+    width: 100%;
+    background-color: #F1F3F5;
+}
+
+.content .container{
+    padding: 10px;
+}
+
+.content .container .flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+
+}
+
+.content .container .flex ul{
+    margin: 10px;
+}
+
+.content .container .flex ul a{
+    color: black;
+
+    text-decoration: none;
+}
+
+.content .container .flex ul a .text{
+    background-color: white;
+    text-align: center;
+
+} 
+
+.content .container .flex ul a .text h3{
+    font-size: 1em;
+}
+
+.content .container .flex ul a img{
+    min-width: 50%;
+    max-width: 100%;
+
+    min-height: 100px;
+    max-height: 200px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+/* Contet END */
