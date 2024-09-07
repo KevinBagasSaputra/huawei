@@ -183,10 +183,20 @@ nav .container ul li{
     padding: 10px;
 }
 
+/* .content .container h2{
+    color: black;
+    padding: 20px;
+    font-size: 1.7em;
+
+    text-align: center;
+} */
+
 .content .container .flex{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+
+    /* flex-wrap: wrap; */
+    
     /* justify-content: center; */
 
 }
@@ -228,3 +238,129 @@ nav .container ul li{
     object-fit: cover;
 }
 /* Contet END */
+
+
+/* Contet-section START */
+.content-section{
+    width: 100%;
+    background-color: #F1F3F5;
+}
+
+.content-section .container{
+    padding: 10px;
+}
+
+.content-section .container h2{
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+}
+
+.content-section .container ul{
+    display: flex;
+    justify-content: center;
+}
+
+.content-section .container ul li{
+    list-style-type: none;
+}
+
+.content-section .container ul li .active{
+    color: black;
+
+    text-underline-offset: 15px;
+    text-decoration: underline;
+}
+
+.content-section .container ul li a{
+    color: gray;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-decoration: none;
+
+    padding: 10px;
+}.content-section .container ul li a:hover{
+    color: black;
+
+}
+
+    /* Flex START */
+    .content-section .container .flex{
+        display: flex;
+        justify-content: center;
+
+        flex-wrap: wrap;
+        
+    }
+
+    .content-section .container .flex ul{
+        margin: 20px;
+
+        display: block;
+    }
+
+
+
+    .content-section .container .flex ul a{
+        color: black;
+        text-decoration: none;
+    }
+
+
+
+    .content-section .container .flex ul a img{
+        border-radius: 10px;
+
+        min-width: 50%;
+        max-width: 100%;
+
+        min-height: 300px;
+        max-height: 500px;
+        object-fit: cover;
+    }
+
+    .content-section .container .flex ul a h2{
+        font-size: 1.2em;
+        
+    }.content-section .container .flex ul a p{
+        font-size: 1.1em;
+    }
+
+
+    .content-section .container .flex ul .link a{
+        color: white;
+        background-color: black;
+
+        border-radius: 6px;
+        padding: 10px;
+    }.content-section .container .flex ul .link a:hover{
+        background-color: rgb(68, 68, 68);
+    }
+    /* Flex END */
+
+        /* Flex 2 START */
+        .content-section .container .flex .flex-dua{
+            display: flex;
+            justify-content: center;
+            
+            flex-wrap: wrap;
+        }
+
+        .content-section .container .flex .flex-dua ul{
+        }
+
+        .content-section .container .flex .flex-dua ul a{
+        }
+
+        .content-section .container .flex .flex-dua ul a img{
+            min-width: 50%;
+            max-width: 100%;
+
+            min-height: 300px;
+            max-height: 400px;
+
+            object-fit: cover;
+        }
+
+        /* Flex 2 END */
+/* Contet-section END */
